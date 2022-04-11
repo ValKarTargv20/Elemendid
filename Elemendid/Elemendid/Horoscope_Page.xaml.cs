@@ -42,6 +42,7 @@ namespace Elemendid
             {
                 Children = { lbl, dp, lbl_hor }
             };
+            st.BackgroundColor = Color.LightBlue;
             Content = st;
         }
 
