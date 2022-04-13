@@ -42,7 +42,7 @@ namespace Elemendid
             {
                 Children = { lbl, dp, lbl_hor }
             };
-            st.BackgroundColor = Color.LightBlue;
+            
             Content = st;
         }
 
@@ -68,22 +68,27 @@ namespace Elemendid
             if (col == 0 || col == 1)
             {
                 col_sign = "Valge";
+                BackgroundColor = Color.White;
             }
             else if (col == 2 || col == 3)
             {
                 col_sign = "Sinine";
+                BackgroundColor = Color.LightBlue;
             }
             else if (col == 4 || col == 5)
             {
                 col_sign = "Roheline";
+                BackgroundColor = Color.LightGreen;
             }
             else if (col == 6 || col == 7)
             {
-                col_sign = "Sinine";
+                col_sign = "Kollane";
+                BackgroundColor = Color.LightYellow;
             }
             else if (col == 8 || col == 9)
             {
                 col_sign = "Punane";
+                BackgroundColor = Color.LightPink;
             }
         }
 
